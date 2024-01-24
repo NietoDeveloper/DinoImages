@@ -1,2 +1,1 @@
-# DinoInfoFast
-App for Dinos Info
+# Search-Movies
