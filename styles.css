@@ -42,10 +42,7 @@ a {
   text-decoration: none;
 }
 
-
-
-
-/*=============== MY REUSABLE CSS CLASSES ===============*/
+/*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
   margin-right: 1.5rem;
@@ -70,9 +67,6 @@ a {
 .main {
   overflow: hidden;
 }
-
-
-/*=============== FOOTER ===============*/
 
 .footer{
   margin-top: 40px;
@@ -173,7 +167,6 @@ font-size: 15px;
   animation: a 3s infinite; 
 }
 
-/*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
   width: 12px;
   background-color: hsl(222, 7%, 28%);
@@ -189,7 +182,6 @@ font-size: 15px;
   background-color: black;
 }
 
-/*=============== SCROLL UP ===============*/
 .scrollup{
   position: fixed;
   right: 10px;
