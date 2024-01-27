@@ -22,3 +22,13 @@ sr.reveal(`.footer__content`, {interval: 250});
 sr.reveal(`.footer__copy`), {interval: 300};
 sr.reveal(`footer__dev-link`, {interval: 300});
 sr.reveal(`date`, {interval:350}) 
+
+
+(function ($) {
+    "use strict";
+  
+    //magnific-popup
+    $(document).ready(function () {
+      $(".vido-btn").magnificPopup({ type: "video" });
+    });
+  })(jQuery);
