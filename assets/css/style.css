@@ -19,8 +19,7 @@ body {
 .section-padding {
   padding: 6rem 0;
 }
-.container {
-}
+
 .img-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
