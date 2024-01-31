@@ -49,7 +49,7 @@ a {
 
 .panels {
   width: auto;
-  min-height: 110vh;
+  min-height: 90vh;
   overflow: hidden;
   display: flex;
 }
@@ -126,10 +126,9 @@ a {
     }
     
     .panel.open {
-      font-size: 25px;
       flex: 5;
     }
-
+    
     
     .card {
       text-align: center;
