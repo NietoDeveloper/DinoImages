@@ -29,7 +29,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--text-color);
-  background-image: url(assets/img/BackSpinos.jpg);
+  background-image: url(assets/img/BackSpinos.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
