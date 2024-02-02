@@ -29,7 +29,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--text-color);
-  background-image: url(assets/img/BackSpinos.png);
+  background-image: url(assets/img/BackSpinos.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -83,7 +83,7 @@ a {
       background-image: url(assets/img/Herviboros2.png);
     }
     .panel3 {
-      background-image: url(assets/img/Marinos1.png);
+      background-image: url(assets/img/Nadadores2.png);
     }
     .panel4 {
       background-image: url(assets/img/Voladores1.png);
