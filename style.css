@@ -9,15 +9,19 @@ html {
 }
 
 .col-md-6 {
-  border: 1px solid yellow;
+  border: 1px solid rgb(0, 94, 12);
 }
 
 body {
   overflow-x: hidden;
+  background-image: url(assets/img/BackSpinos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .section-padding {
-  padding: 6rem 0;
+  padding: 0px 0;
 }
 .container {
 }
@@ -26,9 +30,9 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   /* grid-template-columns: repeat(auto-fit, 180px); */
   grid-auto-rows: 250px;
-  grid-gap: 10px;
+  grid-gap: 0px;
   grid-auto-flow: dense;
-  padding: 10px 0;
+  padding: 0px 0;
 }
 
 .img-box {
@@ -37,8 +41,6 @@ body {
   align-items: center;
   font-size: 4rem;
   font-weight: 600;
-  color: purple;
-  border: 1px solid #999;
 }
 
 .img-box img {
