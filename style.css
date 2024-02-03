@@ -41,6 +41,8 @@ body {
   align-items: center;
   font-size: 4rem;
   font-weight: 600;
+  color: rgb(30, 128, 0);
+  border: 2px;
 }
 
 .img-box img {
