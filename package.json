@@ -1,0 +1,61 @@
+{
+  "name": "zooming",
+  "version": "2.1.1",
+  "description": "Image zoom that makes sense.",
+  "main": "build/zooming.js",
+  "module": "build/zooming.module.js",
+  "jsnext:main": "build/zooming.module.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kingdido999/zooming.git"
+  },
+  "keywords": [
+    "zoom",
+    "image",
+    "grab",
+    "javascript"
+  ],
+  "scripts": {
+    "start": "rollup -c -w -m inline",
+    "build": "rollup -c && rollup -c rollup.config.min.js",
+    "test": "cypress run --browser chrome",
+    "test:open": "cypress open",
+    "docs": "docsify serve ./docs"
+  },
+  "author": "Desmond Ding <info@desmonding.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingdido999/zooming/issues"
+  },
+  "homepage": "https://kingdido999.github.io/zooming",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-plugin-transform-object-assign": "6.22.0",
+    "babel-preset-es2015-rollup": "3.0.0",
+    "chai": "4.1.2",
+    "cypress": "4.3.0",
+    "docsify-cli": "4.4.0",
+    "husky": "4.2.3",
+    "lint-staged": "10.2.2",
+    "mocha": "7.1.1",
+    "prettier-standard": "16.2.1",
+    "rollup": "1.32.1",
+    "rollup-plugin-babel": "3.0.3",
+    "rollup-plugin-eslint": "4.0.0",
+    "rollup-plugin-filesize": "6.2.1",
+    "rollup-plugin-uglify": "6.0.4"
+  },
+  "lint-staged": {
+    "linters": {
+      "src/**/*.js": [
+        "prettier-standard",
+        "git add"
+      ]
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
