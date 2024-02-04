@@ -23,11 +23,11 @@
 
   <body>
     <section class="round-bg section-padding">
-      <div class="container">
-        <div class="img-container">
-          <div class="img-box big">
-            <img src="assets/img/Velociraptor3.png" alt="" />
-          </div>
+      <div class="container" id="content">
+        <div class="img-container" id="value-img">
+          <a class="img-box big">
+            <img id="img-custom" src="assets/img/Velociraptor3.png" alt="journey_thumbnail" />
+          </a>
           <div class="img-box">
             <img src="assets/img/Velociraptor.webp" alt="" />
           </div>
@@ -53,15 +53,95 @@
           <div class="img-box vertical">
             <img src="assets/img/Spino2.webp" alt="" />
           </div>
+
+          <div class="row">
+            <a class="button" id="btn-fast">faster</a>
+            <a class="button" id="btn-dark">dark</a>
+            <a class="button" id="btn-scale-small">smaller</a>
+          </div>
+
         </div>
       </div>
+
+    
+
+
     </section>
-    <!-- Optional JavaScript; choose one of the two! -->
+   
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/main2.js"></script>
+
+      <!-- Scripts zoom
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="assets/js/zooming.js"></script>
+  <script>
+    const defaultZooming = new Zooming()
+    const customZooming = new Zooming()
+    const config = customZooming.config()
+    const TRANSITION_DURATION_DEFAULT = config.transitionDuration
+    const BG_COLOR_DEFAULT = config.bgColor
+    const SCALE_BASE_DEFAULT = config.scaleBase
+    const ACTIVE_CLASS = 'button-primary'
+
+    const btnFast = document.getElementById('btn-fast')
+    const btnDark = document.getElementById('btn-dark')
+    const btnScaleSmall = document.getElementById('btn-scale-small')
+
+    document.addEventListener('DOMContentLoaded', function () {
+      defaultZooming.listen('#img-default')
+      customZooming.listen('#img-custom')
+    })
+
+    btnFast.addEventListener('click', function (event) {
+      const transitionDuration = toggleActive(btnFast)
+        ? 0.2
+        : TRANSITION_DURATION_DEFAULT
+
+      customZooming.config({ transitionDuration })
+    })
+
+    btnDark.addEventListener('click', function (event) {
+      const bgColor = toggleActive(btnDark)
+        ? 'black'
+        : BG_COLOR_DEFAULT
+
+      customZooming.config({ bgColor })
+    })
+
+    btnScaleSmall.addEventListener('click', function (event) {
+      const scaleBase = toggleActive(btnScaleSmall)
+        ? 0.7
+        : SCALE_BASE_DEFAULT
+
+      customZooming.config({ scaleBase })
+    })
+
+    function isActive(el) {
+      return el.classList.contains(ACTIVE_CLASS)
+    }
+
+    function activate(el) {
+      el.classList.add(ACTIVE_CLASS)
+    }
+
+    function deactivate(el) {
+      el.classList.remove(ACTIVE_CLASS)
+    }
+
+    function toggleActive(el) {
+      if (isActive(el)) {
+        deactivate(el)
+        return false
+      } else {
+        activate(el)
+        return true
+      }
+    }
+
+  </script>
   </body>
 </html>
