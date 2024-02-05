@@ -1,7 +1,7 @@
 .send{
     cursor: pointer;
     background-color: transparent;
-    width: 130px;
+    width: 100px;
     height: 50px;
     position: relative;
     display: inline-block;
@@ -9,23 +9,16 @@
     text-decoration: none;
     overflow: hidden;
     transition: 0.0010s;
-    margin-top: 10px;
-    margin-left: 25px;
 }
     @media screen and (min-width: 720px) {
         .send {
-            width: 150px;
+            width: 130px;
             height: 50px;
-            margin-left: 30px;
-            text-decoration: none;
         }
     }
 .send p {
-    text-align: center;
-    margin-top: 5px;
-    font-size: 20px;
-    color: rgb(153, 255, 0);
-    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
 }
 
 
@@ -48,7 +41,6 @@
 .send:hover p {
     color: rgb(255, 255, 255);
     font-size: 25px;
-    text-decoration: none;
 }
 
 .send span{
