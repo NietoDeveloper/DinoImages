@@ -16,19 +16,20 @@
 }
     @media screen and (min-width: 720px) {
         .send {
-            width: 160px;
+            width: 170px;
             height: 40px;
         }
     }
 .send p {
-    font-size: 22px;
+    font-size: 23px;
     color: rgb(255, 255, 254);
-    margin-top: 3px;
+    margin-top: px;
+    text-decoration: none;
 }
 
 
 .send:hover{
-    width: 150px;
+    width: 180px;
     height: 60px;
     background: rgb(153, 255, 0);
     box-shadow: 0 0 90px rgb(152, 253, 0),
