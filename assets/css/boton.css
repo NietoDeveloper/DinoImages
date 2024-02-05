@@ -1,8 +1,8 @@
 .send{
     cursor: pointer;
     background-color: transparent;
-    width: 120px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     position: relative;
     display: inline-block;
     text-transform: uppercase;
@@ -10,17 +10,17 @@
     overflow: hidden;
     transition: 0.0020s;
     margin-top: 10px;
-    margin-left: 25px;
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
     @media screen and (min-width: 720px) {
         .send {
             width: 170px;
-            height: 30px;
         }
     }
 .send p {
+    margin-top: 5px;
     font-size: 18px;
     color: rgb(255, 255, 254);
     text-decoration: none;
@@ -28,8 +28,6 @@
 
 
 .send:hover{
-    width: 180px;
-    height: 40px;
     background: rgb(153, 255, 0);
     box-shadow: 0 0 90px rgb(152, 253, 0),
                 0 0 110px rgb(155, 252, 10),
@@ -46,7 +44,8 @@
         }
 .send:hover p {
     color: rgb(2, 0, 134);
-    font-size: 25px;
+    font-size: 22px;
+    margin-top: 2px;
 }
 
 .send span{
@@ -107,8 +106,7 @@
     transition: 1s;
     transition-delay: 0.5s;
 }
-
-
+    
 .button.button-primary {
     background-color: #f9c04d !important;
     border-color: #f9c04d !important;
