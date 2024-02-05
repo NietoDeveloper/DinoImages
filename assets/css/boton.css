@@ -1,29 +1,35 @@
 .send{
     cursor: pointer;
     background-color: transparent;
-    width: 100px;
-    height: 50px;
+    width: 130px;
+    height: 40px;
     position: relative;
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
     overflow: hidden;
     transition: 0.0020s;
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: center;
+    margin-bottom: 10px;
 }
     @media screen and (min-width: 720px) {
         .send {
-            width: 130px;
-            height: 50px;
+            width: 160px;
+            height: 40px;
         }
     }
 .send p {
-    font-size: 32px;
+    font-size: 22px;
     color: rgb(255, 255, 254);
+    margin-top: 3px;
 }
 
 
 .send:hover{
-  
+    width: 150px;
+    height: 60px;
     background: rgb(153, 255, 0);
     box-shadow: 0 0 90px rgb(152, 253, 0),
                 0 0 110px rgb(155, 252, 10),
@@ -39,8 +45,8 @@
             }
         }
 .send:hover p {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
+    color: rgb(2, 0, 134);
+    font-size: 26px;
 }
 
 .send span{
