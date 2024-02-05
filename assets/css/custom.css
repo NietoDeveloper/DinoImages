@@ -1,24 +1,31 @@
 .send{
     cursor: pointer;
     background-color: transparent;
-    width: 80px;
-    height: 1px;
+    width: 130px;
+    height: 50px;
     position: relative;
     display: inline-block;
     text-transform: uppercase;
     text-decoration: none;
     overflow: hidden;
     transition: 0.0010s;
+    margin-top: 10px;
+    margin-left: 25px;
 }
     @media screen and (min-width: 720px) {
         .send {
-            width: 130px;
+            width: 150px;
             height: 50px;
+            margin-left: 30px;
+            text-decoration: none;
         }
     }
 .send p {
-    font-size: 34px;
-    color: #ffffff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(153, 255, 0);
+    text-decoration: none;
 }
 
 
@@ -40,7 +47,8 @@
         }
 .send:hover p {
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 25px;
+    text-decoration: none;
 }
 
 .send span{
@@ -52,7 +60,7 @@
     top: 0;
     left: -100%;
     width: 100%;
-    height: 40px;
+    height: 50px;
     background: linear-gradient(90deg, transparent, greenyellow);
 }
 
@@ -87,7 +95,7 @@
 .send:hover span:nth-child(3){
     left: 100%;
     transition: 1s;
-    transition-delay: 0.5s;
+    transition-delay: 0.4s;
 }
 .send span:nth-child(4){
     bottom: -100%;
@@ -99,5 +107,5 @@
 .send:hover span:nth-child(4){
     bottom: 100%;
     transition: 1s;
-    transition-delay: 0.75s;
+    transition-delay: 0.5s;
 }
