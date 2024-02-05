@@ -17,8 +17,8 @@
         }
     }
 .send p {
-    font-size: 25px;
-    color: #ffffff;
+    font-size: 30px;
+    color: rgb(152, 253, 0);
 }
 
 
@@ -33,14 +33,14 @@
     @media screen and (min-width: 720px) {
             .send:hover {
                 box-shadow: 0 0 120px rgb(163, 255, 24),
-                0 0 150px rgb(155, 252, 10),
+                0 0 150px rgb(153, 255, 0),
                 0 0 190px rgb(152, 253, 1);
 
             }
         }
 .send:hover p {
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 38px;
 }
 
 .send span{
@@ -58,7 +58,7 @@
 
     @media screen and (min-width: 720px) {
         .send span:nth-child(1) {
-            height: 60px;
+            height: 50px;
         }
     }
 .send:hover span:nth-child(1){
@@ -75,7 +75,7 @@
 .send:hover span:nth-child(2){
     left: 100%;
     transition: 1s;
-    transition-delay: 0.15s;
+    transition-delay: 0.1s;
 }
 .send span:nth-child(3){
     bottom: 0;
