@@ -89,12 +89,3 @@ body {
 img {
   max-width: 100%;
 }
-.button.button-primary {
-  background-color: #f9c04d !important;
-  border-color: #f9c04d !important;
-}
-
-.button.button-secondary {
-  background-color: #eee !important;
-  border-color: #eee !important;
-}
