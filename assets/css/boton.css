@@ -44,7 +44,7 @@
         }
 .send:hover p {
     color: rgb(2, 0, 134);
-    font-size: 22px;
+    font-size: 23px;
     margin-top: 2px;
 }
 
@@ -106,13 +106,18 @@
     transition: 1s;
     transition-delay: 0.5s;
 }
-    
+
+
 .button.button-primary {
-    background-color: #f9c04d !important;
-    border-color: #f9c04d !important;
+    background-color: rgb(153, 255, 0);
+    border-color: rgb(153, 255, 0);
+    width: 110px;
+    margin-left: 20px;
+    font-size: 18px;
   }
   
   .button.button-secondary {
     background-color: #eee !important;
     border-color: #eee !important;
+    font-size: 25px;
   }
