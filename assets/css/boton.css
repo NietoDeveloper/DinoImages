@@ -110,9 +110,8 @@
 }
 
 .row .button {
-    margin-left: 30px;
-    font-size: 16px;
-    width: 110px;
+    margin-left: 20px;
+    width: 90px;
     margin-top: 20px;
     border-color: rgb(153, 255, 0);
 } 
@@ -121,7 +120,7 @@
 }
 .row .button p {
     color: rgb(153, 255, 0);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .button.button-primary {
