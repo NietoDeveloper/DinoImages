@@ -13,6 +13,7 @@
     text-align: center;
     margin-bottom: 10px;
     margin-left: 25px;
+    border-color: rgb(153, 255, 0);
 }
     @media screen and (min-width: 720px) {
         .send {
@@ -22,7 +23,7 @@
 .send p {
     margin-top: 5px;
     font-size: 18px;
-    color: rgb(255, 145, 0);
+    color: rgb(153, 255, 0);
     text-decoration: none;
 }
 
@@ -109,23 +110,24 @@
 }
 
 .row .button {
-    margin-left: 35px;
-    font-size: 17px;
-    width: 100px;
+    margin-left: 30px;
+    font-size: 16px;
+    width: 110px;
     margin-top: 20px;
+    border-color: rgb(153, 255, 0);
 } 
 .row.button:hover  {
    color: rgb(12, 37, 37);
 }
 .row .button p {
-    color: rgb(255, 145, 0);
+    color: rgb(153, 255, 0);
     font-size: 20px;
 }
 
 .button.button-primary {
-    background-color: rgb(153, 255, 0);
+    background-color: rgb(21, 24, 226);
     border-color: rgb(153, 255, 0);
     width: 110px;
     font-size: 16px;
-  }
+}
   
