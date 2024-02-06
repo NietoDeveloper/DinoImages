@@ -1,6 +1,6 @@
 .send{
     cursor: pointer;
-    background-color: transparent;
+    background-color: black;
     width: 130px;
     height: 40px;
     position: relative;
@@ -114,6 +114,7 @@
     width: 90px;
     margin-top: 20px;
     border-color: rgb(153, 255, 0);
+    background-color: black;
 } 
 .row.button:hover  {
    color: rgb(12, 37, 37);
