@@ -8,7 +8,7 @@
     text-transform: uppercase;
     text-decoration: none;
     overflow: hidden;
-    transition: 0.0020s;
+    transition: 0.0010s;
 }
     @media screen and (min-width: 720px) {
         .send {
@@ -17,7 +17,7 @@
         }
     }
 .send p {
-    font-size: 26px;
+    font-size: 32px;
     color: rgb(255, 255, 254);
 }
 
