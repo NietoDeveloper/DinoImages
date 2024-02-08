@@ -1,4 +1,4 @@
-import { carnivoro1, herviboro1, volador1, marinos1, reptiles1 } from './info.js'
+import { carnivoro1, herviboro1, volador1, marinos1, reptiles1 } from 'assets/js/info.js'
 
 let enlaces = document.querySelectorAll('a')
 let nombreElemento = document.getElementById('nombre')
