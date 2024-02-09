@@ -23,7 +23,7 @@ enlaces.forEach(function (enlace) {
 
 function obtenerContenido(enlace) {
     let contenido = {
-        'Velociraptor': carnivoro1,
+        'velociraptor': carnivoro1,
         'Roma': herviboro1,
         'París': volador1,
         'Londres': marinos1,

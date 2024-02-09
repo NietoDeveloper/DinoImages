@@ -2,10 +2,10 @@ const carnivoro1  = {
     nombre: 'Velociraptor',
     pesotamaño: 'Alto: 1.60 cm, Peso: 70kg',
     alimento: 'Carne',
-    tipovida: ''
+    tipovida: 'xxx'
 }
 
-const hervivoro1 = {
+const herviboro1 = {
     titulo: 'Roma',
     precio: '',
     subtitulo: 'Tesoros eternos en la Ciudad Eterna',
@@ -27,8 +27,8 @@ const londres = {
 }
 
 export {
-    barcelona,
-    roma,
+    carnivoro1,
+    herviboro1,
     paris,
     londres
 };
