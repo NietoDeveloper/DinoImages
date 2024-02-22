@@ -1,157 +1,153 @@
-.send{
-    cursor: pointer;
-    background-color: black;
-    width: 130px;
-    height: 40px;
-    position: relative;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.0020s;
-    margin-top: 10px;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    border-color: rgb(153, 255, 0);
+.titul {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  place-content: center;
+  align-items: center;
+  justify-content: center;
 }
-    @media screen and (min-width: 720px) {
-        .send {
-            width: 170px;
-        }
-    }
+.div-1 {
+  border: 1px solid rgba(61, 12, 209, 0.411);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9px);
+  width: 340px;
+  height: 120px;
+  margin-top: 1px;
+  align-self: center;
+  padding: auto;
+}
+.titul .div-1 h1 {
+  color: rgb(153, 255, 0);
+  margin-top: 25px;
+  font-size: 50px;
+}
+
+.send {
+  cursor: pointer;
+  background-color: black;
+  width: 130px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.002s;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  border-color: rgb(153, 255, 0);
+}
+@media screen and (min-width: 720px) {
+  .send {
+    width: 170px;
+  }
+}
 .send p {
-    margin-top: 5px;
-    font-size: 18px;
-    color: rgb(153, 255, 0);
-    text-decoration: none;
+  margin-top: 5px;
+  font-size: 18px;
+  color: rgb(153, 255, 0);
+  text-decoration: none;
 }
 
-
-.send:hover{
-    background: rgb(153, 255, 0);
-    box-shadow: 0 0 90px rgb(152, 253, 0),
-                0 0 110px rgb(155, 252, 10),
-                0 0 140px rgb(152, 253, 1);
-                transition-delay: 0.7s;
+.send:hover {
+  background: rgb(153, 255, 0);
+  box-shadow: 0 0 90px rgb(152, 253, 0), 0 0 110px rgb(155, 252, 10),
+    0 0 140px rgb(152, 253, 1);
+  transition-delay: 0.7s;
 }
-    @media screen and (min-width: 720px) {
-            .send:hover {
-                box-shadow: 0 0 120px rgb(163, 255, 24),
-                0 0 150px rgb(153, 255, 0),
-                0 0 190px rgb(152, 253, 1);
-
-            }
-        }
+@media screen and (min-width: 720px) {
+  .send:hover {
+    box-shadow: 0 0 120px rgb(163, 255, 24), 0 0 150px rgb(153, 255, 0),
+      0 0 190px rgb(152, 253, 1);
+  }
+}
 .send:hover p {
-    color: rgb(2, 0, 134);
-    font-size: 23px;
-    font-weight: 600;
-    margin-top: 2px;
+  color: rgb(2, 0, 134);
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 2px;
 }
 
-.send span{
-    position: absolute;
-    display: block;
+.send span {
+  position: absolute;
+  display: block;
 }
 
-.send span:nth-child(1){
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 40px;
-    background: linear-gradient(90deg, transparent, greenyellow);
+.send span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(90deg, transparent, greenyellow);
 }
 
-    @media screen and (min-width: 720px) {
-        .send span:nth-child(1) {
-            height: 50px;
-        }
-    }
-.send:hover span:nth-child(1){
-    left: 100%;
-    transition: 0.9s;
-}
-.send span:nth-child(2){
-    top: -100%;
-    right: 0;
-    width: 80px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, greenyellow);
-}
-.send:hover span:nth-child(2){
-    left: 100%;
-    transition: 1s;
-    transition-delay: 0.1s;
-}
-.send span:nth-child(3){
-    bottom: 0;
-    right: -100%;
-    width: 100%;
+@media screen and (min-width: 720px) {
+  .send span:nth-child(1) {
     height: 50px;
-    background: linear-gradient(270deg, transparent, greenyellow);
+  }
 }
-.send:hover span:nth-child(3){
-    left: 100%;
-    transition: 1s;
-    transition-delay: 0.4s;
+.send:hover span:nth-child(1) {
+  left: 100%;
+  transition: 0.9s;
 }
-.send span:nth-child(4){
-    bottom: -100%;
-    left: 0;
-    width: 60px;
-    height: 100%;
-    background: linear-gradient(270deg, transparent, greenyellow);
+.send span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 80px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, greenyellow);
 }
-.send:hover span:nth-child(4){
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
+.send:hover span:nth-child(2) {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.1s;
+}
+.send span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(270deg, transparent, greenyellow);
+}
+.send:hover span:nth-child(3) {
+  left: 100%;
+  transition: 1s;
+  transition-delay: 0.4s;
+}
+.send span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  background: linear-gradient(270deg, transparent, greenyellow);
+}
+.send:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
 }
 
 .row .button {
-    margin-left: 20px;
-    width: 90px;
-    margin-top: 20px;
-    border-color: rgb(153, 255, 0);
-    background-color: black;
-} 
-.row.button:hover  {
-   color: rgb(12, 37, 37);
+  margin-left: 20px;
+  width: 90px;
+  margin-top: 10px;
+  border-color: rgb(153, 255, 0);
+  background-color: black;
+}
+.row.button:hover {
+  color: rgb(12, 37, 37);
 }
 .row .button p {
-    color: rgb(153, 255, 0);
-    font-size: 15px;
+  color: rgb(153, 255, 0);
+  font-size: 15px;
 }
 
 .button.button-primary {
-    background-color: rgb(21, 24, 226);
-    border-color: rgb(153, 255, 0);
-    width: 110px;
-    font-size: 16px;
+  background-color: rgb(21, 24, 226);
+  border-color: rgb(153, 255, 0);
+  width: 110px;
+  font-size: 16px;
 }
-  
-.titul {
-    text-align: center;
-    display: flex;
-    margin: 0 auto;
-    place-content: center;
-    align-items: center;
-    justify-content: center;
-  }
-  .div-1 {
-    border: 1px solid rgba(61, 12, 209, 0.411);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9px);
-    width: 340px;
-    height: 120px;
-    margin-top: 1px;
-    align-self: center;
-    padding: auto;
-  }
-  .titul .div-1 h1 {
-    color: rgb(153, 255, 0);
-    margin-top: 25px;
-    font-size: 50px;
-  }
