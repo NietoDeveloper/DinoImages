@@ -1,1 +1,1 @@
-# Dinosours Information
+# Dinosours Images 
