@@ -151,3 +151,39 @@
   width: 110px;
   font-size: 16px;
 }
+
+.scrollup{
+  position: fixed;
+  right: 10px;
+  bottom: -30%;
+  background-color: rgb(188, 255, 4);
+  display: inline-flex;
+  padding: .35rem;
+  border-radius: .5rem;
+  font-size: .7rem;
+  color: var(--white-color);
+  z-index: var(--z-tooltip);
+  transition: .5s;
+}
+.scrollup:hover{
+  transform: translateY(-1rem);
+}
+
+
+/* Show Scroll Up*/
+
+.show-scroll{
+  bottom: 3rem;
+  color: blue;
+}
+
+@media screen and (max-width: 320px){
+  
+}
+
+@media screen and (min-width: 770px) {
+  .scrollup{
+    right: 3rem;
+    font-size: 20px;
+  }
+}
