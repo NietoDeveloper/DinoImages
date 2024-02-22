@@ -1,7 +1,7 @@
 .send{
     cursor: pointer;
     background-color: transparent;
-    width: 100px;
+    width: 60px;
     height: 50px;
     position: relative;
     display: inline-block;
@@ -17,7 +17,7 @@
         }
     }
 .send p {
-    font-size: 32px;
+    font-size: 30px;
     color: rgb(255, 255, 254);
 }
 
@@ -40,7 +40,7 @@
         }
 .send:hover p {
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .send span{
