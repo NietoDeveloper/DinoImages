@@ -257,7 +257,7 @@ a {
 }
 .footer__social-link {
   font-size: 50px;
-  margin-left: 50px;
+  display: flex;
 }
 .footer__copy {
   display: block;
@@ -267,11 +267,11 @@ a {
 }
 .footer__copy p {
   color: rgb(188, 255, 4);
-  font-size: 15px;
+  font-size: 14px;
 }
 .footer__dev-link {
   color: rgb(188, 255, 4);
-  font-size: 21px;
+  font-size: 18px;
 }
 .footer__copy,
 .footer__dev-link:hover {
