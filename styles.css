@@ -53,6 +53,7 @@ a {
   min-height: 110vh;
   overflow: hidden;
   display: flex;
+  cursor: pointer;
 }
 
 .panel {
