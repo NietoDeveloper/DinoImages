@@ -4,7 +4,7 @@
 
 # Information Site
 
-Welcome to Bogota! This site serves as an L.
+Welcome! This site serves as an Images Dinosaurs WebSite.
 
 ## About
 
@@ -30,7 +30,7 @@ To set up the project locally, follow these steps:
 
 Installation
 
-Clone the repository:git clone <https://github.com/NietoDeveloper/BogotaCityTributte>
+Clone the repository:git clone <https://github.com/NietoDeveloper/DinoImages>
 
 
 Open index.html in a web browser.
