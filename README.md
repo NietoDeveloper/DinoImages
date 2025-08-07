@@ -1,10 +1,10 @@
-# [Bogota City Tributte]
+# [Dino Images]
 
 ## Vanilla JS Landing
 
 # Information Site
 
-Welcome to Bogota! This site serves as an Landing Page Trubutte Bogota City Tributte.
+Welcome to Bogota! This site serves as an L.
 
 ## About
 
