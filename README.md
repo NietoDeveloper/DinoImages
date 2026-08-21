@@ -202,8 +202,3 @@ Welcome! This site serves as an **Images Dinosaurs Website**. A simple, lightwei
 ---
 
 ## 🗂️ Project Structure
-
-```text
-DinoImages/
-├── assets/
-│   ├── css/          # Stylesheets
