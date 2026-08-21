@@ -217,14 +217,3 @@ DinoImages/
 
 ## 🔄 Page Rendering Flow
 
-```mermaid
-flowchart LR
-    A([👤 Visitor]) -->|Loads| B[index.html]
-    B --> C[assets/css]
-    B --> D[assets/js/app.js]
-    D -->|Renders| E[assets/img]
-    E --> F([🦕 Dinosaur Gallery])
-    C --> F
-
-
----
