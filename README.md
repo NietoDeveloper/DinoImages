@@ -156,10 +156,6 @@ MIT License. See [LICENSE](./LICENSE) for details.
 
 
 
-<div align="center">
-HTML%2C+CSS+%26+JavaScript;%F0%9F%93%B1+Responsive%2C+Lightweight+Design;%F0%9F%8F%86+%231+GitHub+Committer+in+Colombia)](https://git.io/typing-svg)
-
-<br/>
 
 <p align="center">
   <a href="https://github.com/NietoDeveloper">
