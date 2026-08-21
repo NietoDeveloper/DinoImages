@@ -18,7 +18,3 @@ This site is built with vanilla JavaScript
 Overview
 A simple, lightweight website built with vanilla JavaScript, CSS, and HTML. No frameworks or dependencies required.
 Features
-
-Responsive design
-Interactive UI with vanilla JS
-Clean and modular CSS styling
