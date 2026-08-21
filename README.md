@@ -192,9 +192,3 @@ MIT License. See [LICENSE](./LICENSE) for details.
 </p>
 
 </div>
-
----
-
-## 📋 Overview
-
-Welcome! This site serves as an **Images Dinosaurs Website**. A simple, lightweight website built with **vanilla JavaScript**, **CSS**, and **HTML**. No frameworks or dependencies required.
