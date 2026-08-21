@@ -52,5 +52,4 @@ Project Structure
 Contributing
 
 Fork the repository.
-Create a feature brandd feature').
-
+Create a feature brandd feature')
