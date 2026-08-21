@@ -53,5 +53,5 @@ Contributing
 
 Fork the repository.
 Create a feature branch (git checkout eaturebranch).
-Commit changes (git commit -m 'Add feature').
+Ct changes (git commit -m 'Add feature').
 
