@@ -52,6 +52,5 @@ Project Structure
 Contributing
 
 Fork the repository.
-Create a feature branch (git checkout eaturebranch).
-Ct changes (git commit -m 'Add feature').
+Create a feature brandd feature').
 
