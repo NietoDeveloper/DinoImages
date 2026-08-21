@@ -50,6 +50,4 @@ Project Structure
 └── README.md         # This file
 
 Contributing
-
-Fork the repository.
-Create a feature brandd feature')
+re brandd feature')
