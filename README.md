@@ -150,13 +150,3 @@ MIT License. See [LICENSE](./LICENSE) for details.
 
 
 
-
-
-
-
-
-
-
-nter">
-  <a href="https://nietodeveloper.github.io/DinoImages/">
-    <img src="https://img.shields.io/badge/
