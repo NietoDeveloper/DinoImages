@@ -16,5 +16,4 @@ This site is built with vanilla JavaScript
 - **Hosting:** GitHub Pages
 
 Overview
-A simple, lightweight website built with vanilla JavaScript, CSS, and HTML. No frameworks or dependencies required.
-Features
+A simple, lightweight website built with vanilla JavaScript, 
