@@ -157,10 +157,7 @@ MIT License. See [LICENSE](./LICENSE) for details.
 
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=DINO%20IMAGES&fontSize=68&fontColor=FFD700&fontAlignY=42&desc=🦕%20Vanilla%20JS%20Dinosaur%20Image%20Gallery&descAlignY=62&descColor=DCDCDC&animation=fadeIn" width="100%"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=760&lines=%F0%9F%A6%96+No+Frameworks%2C+No+Dependencies;%E2%9A%A1+Pure+HTML%2C+CSS+%26+JavaScript;%F0%9F%93%B1+Responsive%2C+Lightweight+Design;%F0%9F%8F%86+%231+GitHub+Committer+in+Colombia)](https://git.io/typing-svg)
+HTML%2C+CSS+%26+JavaScript;%F0%9F%93%B1+Responsive%2C+Lightweight+Design;%F0%9F%8F%86+%231+GitHub+Committer+in+Colombia)](https://git.io/typing-svg)
 
 <br/>
 
