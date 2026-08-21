@@ -291,12 +291,3 @@ git clone https://github.com/NietoDeveloper/DinoImages
 
 **Manuel Nieto (NietoDeveloper)**
 
----
-
-## 📄 License
-
-MIT License. See [LICENSE](./LICENSE) for details.
-
-<div align="center">
-
-
