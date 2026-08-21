@@ -207,8 +207,3 @@ Welcome! This site serves as an **Images Dinosaurs Website**. A simple, lightwei
 DinoImages/
 ├── assets/
 │   ├── css/          # Stylesheets
-│   ├── img/            # Dinosaur images
-│   └── js/               # JavaScript logic
-├── build/                  # Production build output
-└── src/                      # Source files
-```
