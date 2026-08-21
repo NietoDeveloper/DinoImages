@@ -14,6 +14,4 @@ This site is built with vanilla JavaScript
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Hosting:** GitHub Pages
-
-Overview
-A simple, lightweight website built with vanilla JavaScript, 
+ simple, lightweight website built with vanilla JavaScript, 
