@@ -34,7 +34,3 @@ Clone the repository:git clone <https://github.com/NietoDeveloper/DinoImages>
 
 
 Open index.html in a web browser.
-
-Usage
-
-Navigate through the website using the browser.
