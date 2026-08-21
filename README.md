@@ -184,4 +184,4 @@ MIT License. See [LICENSE](./LICENSE) for details.
 
 <p align="center">
   <a href="https://nietodeveloper.github.io/DinoImages/">
-    <img src="https://img.shields.io/badge/🌐_Live_Site-nietodeveloper.github.io-FFD700?
+    <img src="https://img.shields.io/badge/
