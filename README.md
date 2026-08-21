@@ -232,10 +232,3 @@ flowchart LR
 ```
 
 ---
-
-## 🛠️ Technologies Used
-
-<div align="center">
-
-| Layer | Technologies |
-|:------|:-------------|
