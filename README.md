@@ -157,11 +157,7 @@ MIT License. See [LICENSE](./LICENSE) for details.
 
 
 
-<p align="center">
-  <a href="https://github.com/NietoDeveloper">
-    <img src="https://img.shields.io/badge/Engineer-Manuel%20Nieto-blue?style=for-the-badge&src="https://img.shields.io/badge/Vanilla-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000"/>
-  </a>
-  <a href="https://pages.github.com/">
+<p alhub.com/">
     <img src="https://img.shields.io/badge/Hosting-GitHub_Pages-222?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="https://opensource.org/licenses/MIT">
