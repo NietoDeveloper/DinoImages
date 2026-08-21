@@ -275,9 +275,3 @@ git clone https://github.com/NietoDeveloper/DinoImages
 - All functionality is handled by vanilla JS scripts in the `assets/js/` folder.
 - Styles are located in the `assets/css/` folder.
 
----
-
-## 🤝 Contributing
-
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-branch`).
