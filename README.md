@@ -157,14 +157,6 @@ MIT License. See [LICENSE](./LICENSE) for details.
 
 
 
-<p alhub.com/">
-    <img src="https://img.shields.io/badge/Hosting-GitHub_Pages-222?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge"/>
-  </a>
-</p>
-
-<p align="center">
+nter">
   <a href="https://nietodeveloper.github.io/DinoImages/">
     <img src="https://img.shields.io/badge/
