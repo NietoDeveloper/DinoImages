@@ -13,5 +13,3 @@ This site is built with vanilla JavaScript
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Hosting:** GitHub Pages
- simple, lightweight website built with vanilla JavaScript, 
