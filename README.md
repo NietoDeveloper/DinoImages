@@ -44,4 +44,3 @@ Styles are located in the css/ folder.
 Project Structure
 ├── index.html        # Main HTML file
 ├── styles .css       # CSS styles
-│  
