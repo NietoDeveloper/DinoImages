@@ -285,9 +285,3 @@ git clone https://github.com/NietoDeveloper/DinoImages
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
----
-
-## 👨‍💻 Author
-
-**Manuel Nieto (NietoDeveloper)**
-
