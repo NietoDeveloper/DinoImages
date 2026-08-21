@@ -226,9 +226,5 @@ flowchart LR
     E --> F([🦕 Dinosaur Gallery])
     C --> F
 
-    style A fill:#FFD700,color:#000,stroke:#FFD700
-    style D fill:#F7DF1E,color:#000,stroke:#F7DF1E
-    style F fill:#000,color:#FFD700,stroke:#FFD700
-```
 
 ---
