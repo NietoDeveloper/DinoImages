@@ -212,8 +212,3 @@ DinoImages/
 ├── build/                  # Production build output
 └── src/                      # Source files
 ```
-
----
-
-## 🔄 Page Rendering Flow
-
